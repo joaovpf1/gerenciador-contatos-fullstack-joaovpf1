@@ -1,0 +1,93 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9375rem;
+    height: calc(100vh - 140px);
+    padding: 4rem 0;
+
+
+
+    div{
+        h1{
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+    }
+
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .625rem;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: .625rem;
+            background-color: var(--background-color2);
+            width: 15.625rem;
+            height: 4.375rem;
+            border-radius: .25rem;
+
+            input{
+                border-radius: .125rem;
+                border-color: var(--background-color);
+                background-color: var(--grey0);
+                border: .0612rem solid transparent;
+
+                &:focus{
+                    //background-color: transparent;
+                    border: .0762rem solid var(--background-color);
+                }
+            }
+        }
+
+        button{
+            width: 10.8125rem;
+            height: 1.5625rem;
+            border-radius: .25rem;
+            background-color: var(--background-color2);
+            color: var(--grey0);
+            border: 0rem;
+            
+            &:hover {
+                background-color: var(--color-primary-focus);
+            }
+        }
+    }
+
+    .bttnDiv{
+        width: 10.8125rem;
+        height: 1.5625rem;
+        display: flex;
+        flex-direction: column;
+        gap: .625rem;
+
+
+        p{
+            text-align: center;
+        }
+    
+        button{
+            width: 10.8125rem;
+            height: 1.5625rem;
+            border-radius: .25rem;
+            background-color: var(--background-color2);
+            color: var(--grey0);
+            border: 0rem;
+    
+            &:hover {
+                background-color: var(--color-primary-focus);
+            }
+        }
+    }
+
+} 
+
+

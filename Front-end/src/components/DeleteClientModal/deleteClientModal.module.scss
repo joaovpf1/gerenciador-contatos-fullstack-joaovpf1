@@ -1,0 +1,43 @@
+.container{
+    background-color: var(--background-color);
+    width: 18.75rem;
+    height: 8.125rem;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+
+    .titleDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            text-align: center;
+        }
+    }
+
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        button{
+            border-radius: .25rem;
+            width: 6.25rem;
+            height: 1.375rem;
+            text-align: center;
+            background-color: var(--background-color2);
+            color: var(--grey0);
+            border: 0rem;
+
+            &:hover{
+                background-color: var(--color-primary-focus);
+            }
+        }
+    }
+}
